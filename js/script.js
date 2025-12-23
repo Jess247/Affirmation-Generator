@@ -4,7 +4,7 @@ const bodyEl = document.getElementById('body')
 
 const date = new Date
 const fullDate = `${date.getDate()}.${date.getMonth()}.${date.getFullYear()}`
-const imgUrl =  `https://www.sourcesplash.com/i/random?w=1920&h=1080&q=ocean`
+const imgUrl =  `https://www.sourcesplash.com/i/random?w=1920&h=1080&q=universe`
 dateEl.textContent =  fullDate
 
 bodyEl.style.backgroundImage = `url(${imgUrl})`
